@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: db.changelog-add_users.sql
+  - include:
+      file: db.changelog-add_users.sql
+  - include:
+      file: db/changelog/db.changelog-files.sql
+  - include:
+      file: db/changelog/db.changelog-roles.sql
+  - include:
+      file: db/changelog/db.changelog-users.sql
+  - include:
+      file: db/changelog/db.changelog-users_roles.sql
